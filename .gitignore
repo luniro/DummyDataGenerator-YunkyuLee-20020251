@@ -1,0 +1,39 @@
+# ── 빌드 산출물 ──────────────────────────────────────────────────────────────
+build/
+build-test/
+out/
+coverage-report/
+*.profraw
+*.profdata
+
+# ── CMake 캐시 ────────────────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+
+# ── Visual Studio ─────────────────────────────────────────────────────────────
+.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# ── JetBrains (CLion) ────────────────────────────────────────────────────────
+.idea/
+cmake-build-*/
+
+# ── VS Code ───────────────────────────────────────────────────────────────────
+.vscode/
+
+# ── 컴파일 중간 산출물 ────────────────────────────────────────────────────────
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
